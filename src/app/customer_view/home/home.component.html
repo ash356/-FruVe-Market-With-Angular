@@ -1,0 +1,610 @@
+<!-- home page........................  -->
+
+<section class="home text-white" id="home">
+    <div class="layer bg-opacity-75 w-100 h-100 bg-black">
+        <nav
+            class="navbar nav-fixed navbar-expand-lg navbar-light bg-transparent p-3 position-fixed top-0 end-0 start-0 ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white d-flex fs-2 p-0 fw-bolder" href="#home">
+                    <span class="text-danger">Fru</span>
+                    <span class="text-success">Ve</span>
+                </a>
+                
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fw-bold text-uppercase" aria-current="page"
+                                href="#home">
+                                home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold text-uppercase" href="#about">
+                                about
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold text-uppercase" href="#services">
+                                services
+                            </a>
+                            <!-- <a [routerLink]="['/CustomerHomeComponent/:service']" 
+                            class="nav-link text-white fw-bold text-uppercase">
+                                services </a> -->
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="text-white nav-link dropdown-toggle fw-bold text-uppercase" href="#products"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                products
+                            </a>
+
+                            <ul class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item text-danger" href="#fruits-product">fruits</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item text-success" href="#vegetables-product">
+                                        vegetables
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold text-uppercase" href="#contact">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- <a class="nav-link text-white fw-bold text-uppercase" href="SignIn.html">
+                                sign in
+                            </a> -->
+                            <a [routerLink]="['/SignIn']" class="nav-link text-white fw-bold text-uppercase"> sign in </a>
+                        </li>
+                        <li>
+                            <form class="d-flex">
+                                <input class="form-control me-2 fw-bold w-50 mt-lg-0 mt-md-2 mt-sm-2" type="search"
+                                    placeholder="Search" aria-label="Search" />
+                                <button class="btn btn-outline-success mt-lg-0 mt-md-2 mt-sm-2" type="submit">
+                                    Search
+                                </button>
+                            </form>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="d-flex justify-content-center align-items-center vh-100 header text-center">
+            <div class="container">
+                <h1 class="d-flex justify-content-center text-capitalize">
+                    <pre><span class="text-danger">Fru</span><span class="text-success">Ve</span> Market</pre>
+                </h1>
+                <p class="text-capitalize">
+                    We help businesses safely and reliably source food and
+                    agricultural products from global markets while empowering buyers
+                    with extensive market intelligence for better decision-making.
+                </p>
+                <a href="javascript:setTimeout(()=>{window.location = '#home' },500);">
+                    <span
+                        class="bg-success d-flex justify-content-center fs-4 align-items-center rounded-circle  text-danger up-icon text-center"><i
+                            class="fa-solid fa-angle-up"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About page............................  -->
+
+<section class="section-two pt-5  bg-light p-5 text-capitalize " id="about">
+    <div class="container">
+        <div class="row bg-white p-5  shadow  ">
+            <div class="col-lg-6 p-0 m-0">
+                <div class="row flex-column">
+                    <div class="col-12 p-0 m-0">
+                        <div class="row">
+                            <div class="col-md-6 about-img p-0 m-0">
+                                <img src="../../../assets/images/about.jpg" class="w-100" alt="" />
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-5 ms-md-2 p-0 m-0">
+                                <div class="row">
+                                    <div class="col-3 p-0 m-0 ps-sm-3">
+                                        <span class="fw-bold">name:</span>
+                                    </div>
+                                    <div class="col-9 p-0 m-0">
+                                        <p class="text-muted ">&nbsp;&nbsp;FruVe market</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3 p-0 m-0 ps-sm-3">
+                                        <span class="fw-bold">place:</span>
+                                    </div>
+                                    <div class="col-9 p-0 m-0 ">
+                                        <p class="text-muted p-0 ">
+                                            &nbsp;&nbsp;egypt
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3 p-0 m-0 ps-sm-3">
+                                        <span class="fw-bold">email:</span>
+                                    </div>
+                                    <div class="col-9 p-0 m-0">
+                                        <pre><p class="text-muted p-0 ">  FruVe@gmail.com</p></pre>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3 p-0 m-0 ps-sm-3">
+                                        <span class="fw-bold">phone:</span>
+                                    </div>
+                                    <div class="col-9 p-0 m-0">
+                                        <p class="text-muted p-0 ">&nbsp;&nbsp;01060054519</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 p-0 m-0">
+                        <div class="row flex-column">
+                            <div class="col-sm-12 pb-2 p-0 m-0">
+                                <h4 class="about-h4">our products</h4>
+                            </div>
+                            <div class="col-sm-12 mb-3 mb-md-5 p-0 m-0">
+                                <span class="range text-danger">Fruits 85%</span>
+
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                        role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
+                                        style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 mb-3 mb-md-5 p-0 m-0">
+                                <span class="range text-success">Vegetables 75%</span>
+
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                        role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                        style="width: 75%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 p-0 m-0 ps-lg-3">
+                <div class="row ">
+                    <div class="col-sm-12 p-0 m-0">
+                        <h2 class="position-relative about-h2">About us</h2>
+                    </div>
+                    <div class="col-sm-12 p-0 m-0">
+                        <p class="fw-light about-p lead mt-3 ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                            dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam
+                            magni ipsum suscipit amet? Autem nemo esse laboriosam ratione
+                            nobis mollitia inventore?
+                        </p>
+                    </div>
+                    <div class="col-sm-12 p-0 m-0">
+                        <p class="fw-light about-p lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                            dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam
+                            magni ipsum suscipit amet? Autem nemo esse laboriosam ratione
+                            nobis mollitia inventore?
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- services page.............................  -->
+
+<section class="section-three pt-5  bg-light text-capitalize " id="services">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h2 class="services-h2 text-uppercase mb-3">services</h2>
+                <p class="fs-0 text-muted services-p position-relative translate-middle-y text-uppercase">
+                    our services
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="information text-uppercase mt-3">
+                <div class="layer bg-opacity-75 w-100 h-100 bg-black p-5">
+                    <div class="row p-5">
+                        <div class="col-sm-12 col-lg-3 col-md-3 text-center">
+                            <span class="mt-4 mb-2 fs-3">
+
+                                <i
+                                    class="fa-solid fa-circle-check text-success information-icon rounded-circle p-4"></i>
+
+                            </span>
+                            <h3 class="fs-3 text-center">450</h3>
+                            <p class="fs-6 text-center">WORKS COMPLETED</p>
+                        </div>
+                        <div class="col-sm-12 col-lg-3 col-md-3 text-center">
+                            <span class="mt-4 mb-2 fs-3">
+
+                                <i
+                                    class="fa-solid fa-calendar-check text-success information-icon rounded-circle p-4"></i>
+
+                            </span>
+                            <h3 class="fs-3 text-center">5</h3>
+                            <p class="fs-6 text-center">YEARS OF EXPERIENCE</p>
+                        </div>
+                        <div class="col-sm-12 col-lg-3 col-md-3 text-center">
+                            <span class="mt-4 mb-2 fs-3">
+                                <i class="fa-solid fa-user-group text-success information-icon rounded-circle p-4"></i>
+                            </span>
+                            <h3 class="fs-3 text-center">550</h3>
+                            <p class="fs-6 text-center">TOTAL CLIENTS</p>
+                        </div>
+                        <div class="col-sm-12 col-lg-3 col-md-3 text-center">
+                            <span class="mt-4 mb-2 fs-3">
+                                <i class="fa-solid fa-medal text-success information-icon rounded-circle p-4"></i>
+                            </span>
+                            <h3 class="fs-3 text-center">48</h3>
+                            <p class="fs-6 text-center">AWARD WON</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- fruit-product page........................  -->
+
+
+<section class="section-four   bg-light text-capitalize pb-5" id="fruits-product">
+    <div class="container">
+        <div class="row text-center mb-4">
+            <div class="col-sm-12">
+                <h2 class="services-h2 text-uppercase mt-5">products</h2>
+                <p class="fs-0 text-muted services-p position-relative translate-middle-y">
+                    fruits
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Apple.jpg" class="card-img-top rounded-0 w-100" alt="..." />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh apple</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>15</span></span>
+
+                                / 18 april. 2022
+                                <time datetime="2022-04-18 20:00"></time>
+                            </p>
+                        </div>
+                        <button class="rounded-circle border-4 border-primary text-primary p-2">
+                            <i class="fa-solid fa-plus fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Banana.jpg" class="card-img-top rounded-0 w-100" alt="..." />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh banana</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>10</span></span>
+
+                                / 18 april. 2022
+                                <time datetime="2022-04-18 20:00"></time>
+
+                            </p>
+                        </div>
+                        <button class="rounded-circle border-4 border-primary text-primary p-2">
+                            <i class="fa-solid fa-plus fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Orange.jpg" class="card-img-top rounded-0 w-100" alt="..." />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh orange</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>5</span></span>
+
+                                / 18 april. 2022
+                                <time datetime="2022-04-18 20:00"></time>
+
+                            </p>
+                        </div>
+                        <button class="rounded-circle border-4 border-primary text-primary p-2">
+                            <i class="fa-solid fa-plus fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Pineapple.jpg" class="card-img-top rounded-0 w-100" alt="..." />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh Pineapple</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>20</span></span>
+
+                                / 18 april. 2022
+                                <time datetime="2022-04-18 20:00"></time>
+
+                            </p>
+                        </div>
+                        <button class="rounded-circle border-4 border-primary text-primary p-2">
+                            <i class="fa-solid fa-plus fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Strawberry.jpg" class="card-img-top rounded-0 w-100" alt="..." />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh Strawberry</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>10</span></span>
+
+                                / 18 april. 2022
+                                <time datetime="2022-04-18 20:00"></time>
+
+                            </p>
+                        </div>
+                        <button class="rounded-circle border-4 border-primary text-primary p-2">
+                            <i class="fa-solid fa-plus fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Mango.jpg" class="card-img-top rounded-0 w-100" alt="..." />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh Mango</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>20</span></span>
+
+                                / 18 april. 2022
+                                <time datetime="2022-04-18 20:00"></time>
+
+                            </p>
+                        </div>
+                        <button class="rounded-circle border-4 border-primary text-primary p-2">
+                            <i class="fa-solid fa-plus fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- vegetables-product page........................  -->
+
+
+<section class="section-four   bg-light text-capitalize pb-5" id="vegetables-product">
+    <div class="container">
+        <div class="row text-center mb-4">
+            <div class="col-sm-12">
+                <h2 class="services-h2 text-uppercase mt-5">products</h2>
+                <p class="fs-0 text-muted services-p position-relative translate-middle-y">
+                    vegetables
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Onion.jpg" class="card-img-top rounded-0 w-100" alt="Onion" />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh Onion</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>2</span></span>
+
+                                / 18 april. 2022
+                            </p>
+                        </div>
+                        <button class="rounded-circle border-4 border-primary text-primary p-2">
+                            <i class="fa-solid fa-plus fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Tomato.jpg" class="card-img-top rounded-0 w-100"
+                        alt="old Tomato" />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">old Tomato</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>15</span></span>
+
+                                / 18 april. 2022
+                            </p>
+                        </div>
+                        <button class="rounded-circle border-4 border-primary text-primary p-2">
+                            <i class="fa-solid fa-plus fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Potato.jpg" class="card-img-top rounded-0 w-100" alt="Potato" />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh Potato</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>20</span></span>
+                                / 18 april. 2022
+                            </p>
+                        </div>
+                        <button class="rounded-circle border-4 border-primary text-primary p-2">
+                            <i class="fa-solid fa-plus fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Carrot.jpg" class="card-img-top rounded-0 w-100" alt="Carrot" />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh Carrot</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>10</span></span>
+
+                                / 18 april. 2022
+                            </p>
+                        </div>
+                        <button class="rounded-circle border-4 border-primary text-primary p-2">
+                            <i class="fa-solid fa-plus fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/cucumber.jpg" class="card-img-top rounded-0 w-100"
+                        alt="cucumber" />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh cucumber </h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>15</span></span>
+
+                                / 18 april. 2022
+                            </p>
+                        </div>
+                        <button class="rounded-circle border-4 border-primary text-primary p-2">
+                            <i class="fa-solid fa-plus fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/fresh-tomato.jpg" class="card-img-top rounded-0 w-100"
+                        alt="fresh tomato" />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh tomato</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>20</span></span>
+
+                                / 18 april. 2022
+                            </p>
+                        </div>
+                        <button class="rounded-circle border-4 border-primary text-primary p-2">
+                            <i class="fa-solid fa-plus fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- contact page...................................  -->
+<section class="section-six  bg-light text-capitalize" id="contact">
+    <div class="layer bg-opacity-50 w-100 h-100 bg-primary p-5">
+        <div class="container bg-white">
+            <div class="row pb-5">
+                <div class="col-sm-12 col-lg-6 pt-5 ps-3">
+                    <h2 class="about-h2 mb-5 position-relative">Send Message</h2>
+                    <form>
+                        <div class="row w-100 pt-3 pb-3">
+                            <div class="col-sm-12 mb-3">
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                    placeholder="Your Name" required />
+                            </div>
+                            <div class="col-sm-12 mb-3">
+                                <input type="email" class="form-control" id="formGroupExampleInput2"
+                                    placeholder="Your Email" required />
+                            </div>
+                            <div class="col-sm-12 mb-3">
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Subjct"
+                                    required />
+                            </div>
+                            <div class="col-sm-12 mb-3">
+                                <div class="form-floating w-100 p-0">
+                                    <textarea class="form-control" placeholder="Leave a comment" id="floatingTextarea2"
+                                        style="height: 100px;"></textarea>
+                                    <label for="floatingTextarea2">message</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <button class="btn btn-primary rounded-pill pt-2 pb-2 ps-4 pe-4">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-12 col-lg-6 p-sm-5 p-0 ps-3 m-0 mt-3 mt-sm-0">
+                    <h2 class="about-h2 position-relative">Get in Touch</h2>
+                    <p class="fw-light fs-5 pt-5 pb-3 about-p lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                        dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam
+                        magni ipsum suscipit amet? Autem nemo esse laboriosam ratione
+                        nobis mollitia inventore?
+                    </p>
+                    <ul class="list-unstyled">
+                        <li class="d-flex">
+                            <i class="fa-solid fa-location-dot text-primary fs-5 fa-fw"></i>
+                            <p class="ps-3">egypt</p>
+                        </li>
+                        <li class="d-flex">
+                            <i class="fa-solid fa-mobile-screen-button text-primary fs-5 fa-fw"></i>
+                            <p class="ps-3">01060054519</p>
+                        </li>
+                        <li class="d-flex">
+                            <i class="fa-solid fa-envelope text-primary fs-5 fa-fw"></i>
+                            <p class="ps-3">furVe@gmail.com</p>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"
+                            class="me-4 text-decoration-none fs-3">
+                            <i class="fa-brands fa-facebook icon rounded-circle"></i>
+                        </a>
+                        <a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp"
+                            target="_blank" class="me-4 text-decoration-none fs-3">
+                            <i class="fa-brands fa-google icon rounded-circle"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/ " target="_blank" class="me-0 text-decoration-none fs-3">
+                            <i class="fa-brands fa-linkedin icon rounded-circle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

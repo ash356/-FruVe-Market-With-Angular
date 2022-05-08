@@ -1,0 +1,211 @@
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    /* signup and singin pages.................................... */
+  
+    header {
+      background-image: linear-gradient(
+        to bottom,
+        white 50%,
+        white 50%
+      ) !important;
+    }
+  
+    .border-span::before {
+      width: 41% !important;
+      left: 10px !important;
+    }
+  
+    .border-span::after {
+      width: 41% !important;
+      right: 10px !important;
+    }
+    .started {
+      display: none;
+    }
+  
+    .join {
+      background-color: rgba(227, 227, 227, 0.233);
+      padding: 20px;
+      width: 90%;
+      margin: auto;
+      margin-top: 50px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.205);
+    }
+    .before-blue {
+      margin-bottom: 50px;
+    }
+  
+    .icon {
+      margin-bottom: 30px !important;
+    }
+  
+    .sign-in {
+      width: 90% !important;
+      padding: 20px !important;
+    }
+  
+    /* home page.................................... */
+  
+    .navbar-nav li a:before {
+      left: 0px !important;
+    }
+  
+    .navbar-nav li:hover a:before {
+      width: 10% !important;
+    }
+    .header h1 {
+      font-size: 3rem !important;
+    }
+  
+    .header p {
+      font-size: 0.9rem !important;
+      line-height: 2rem !important;
+    }
+  
+    .active:before {
+      width: 10% !important;
+    }
+    /* about page...................................   */
+  
+    .about-p {
+      font-size: 0.9rem !important;
+    }
+  
+    /* contact page...................................   */
+  
+    .contact-p {
+      font-size: 1.2rem !important;
+    }
+  
+    .icon {
+      font-size: 1rem !important;
+    }
+  }
+  
+  /* max-width 768............................ */
+  
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    /* signup and singin pages.................................... */
+  
+    header {
+      background-image: linear-gradient(
+        to bottom,
+        #0a2960 50%,
+        white 50%
+      ) !important;
+    }
+  
+    .border-span::before {
+      width: 45% !important;
+      left: 10px !important;
+    }
+  
+    .border-span::after {
+      width: 45% !important;
+      right: 10px !important;
+    }
+    .sign-in {
+      width: 90% !important;
+      padding: 20px !important;
+    }
+  
+    .join {
+      background-color: rgba(227, 227, 227, 0.233);
+      padding: 20px;
+      width: 90%;
+      margin: auto;
+      margin-top: 200px !important;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.205);
+    }
+    /* home page.................................... */
+  
+    .navbar-nav li a:before {
+      left: 0px !important;
+    }
+  
+    .navbar-nav li:hover a:before {
+      width: 10% !important;
+    }
+  
+    .header h1 {
+      font-size: 50px !important;
+      font-weight: 700 !important;
+    }
+  
+    .header p {
+      font-size: 16px !important;
+      line-height: 25px !important;
+    }
+    .active:before {
+      width: 8% !important;
+    }
+  }
+  
+  /* max-width 992............................ */
+  
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    /* signup and singin pages.................................... */
+  
+    .border-span::before {
+      width: 40% !important;
+    }
+  
+    .border-span::after {
+      width: 40% !important;
+    }
+    .sign-in {
+      width: 80% !important;
+      padding: 20px !important;
+    }
+  
+    /* home page.................................... */
+  
+    .navbar-nav li a:before {
+      left: 0px !important;
+    }
+  
+    .navbar-nav li:hover a:before {
+      width: 10% !important;
+    }
+  
+    .header h1 {
+      font-size: 50px !important;
+      font-weight: 700 !important;
+    }
+  
+    .header p {
+      font-size: 16px !important;
+      line-height: 25px !important;
+    }
+  }
+  /* max-width 1200............................ */
+  
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    /* home page.................................... */
+  
+    .navbar-nav li a:before {
+      left: 0px !important;
+    }
+  
+    .navbar-nav li:hover a:before {
+      width: 8% !important;
+    }
+  
+    /* signup and singin pages.................................... */
+  
+    .sign-in {
+      width: 80% !important;
+      padding: 20px !important;
+    }
+  }
+  
+  /* max-width 1400............................ */
+  
+  @media screen and (min-width: 1201px) and (max-width: 2000px) {
+    /* signup and singin pages.................................... */
+  
+    .sign-in {
+      width: 50% !important;
+      padding: 20px !important;
+    }
+  }
+  

@@ -1,0 +1,142 @@
+<section class="admin-sign-up">
+  <header class="d-flex justify-content-center align-items-center">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 pb-0 mt-md-0 mt-sm-5 mt-lg-0 started">
+          <div class="row text-white">
+            <div class="col-lg-12 p-lg-5 col-md-12 p-md-3">
+              <h2 class="text-uppercase position-relative fw-bold before-white">
+                get started
+              </h2>
+            </div>
+            <div class="col-lg-10 p-lg-5 col-md-10 p-md-3 pt-md-5 mt-md-0 mt-sm-5 mt-lg-0">
+              <p class="">
+                FruVe is a global sourcing hub for food and agriculture.
+                Create your FruVe account now to start exploring
+                intelligences and offers of food and agricultural products.
+              </p>
+            </div>
+            <div class="col-lg-10 p-lg-3 ps-lg-5 col-md-10 p-md-3 ps-md-3">
+              <p class="text-muted fs-6 mt-md-0 mt-sm-3 mt-lg-0 mb-md-0 mb-sm-5 mb-lg-0">
+                What you can do on FruVe:
+              </p>
+            </div>
+            <div class="col-lg-10 p-lg-5 col-md-10 p-md-3 mb-md-0 mb-sm-5 mb-lg-0">
+              <ul class="list-unstyled">
+                <li class="d-flex align-items-baseline">
+                  <i class="fa-solid fa-circle-check text-success"></i>
+                  <p class="ms-2">
+                    Explore extensive intelligences and data in food and
+                    agriculture
+                  </p>
+                </li>
+                <li class="d-flex align-items-baseline">
+                  <i class="fa-solid fa-circle-check text-success"></i>
+                  <p class="ms-2">
+                    Browse the latest news from local sources and in-depth
+                    expert analysis
+                  </p>
+                </li>
+                <li class="d-flex align-items-baseline">
+                  <i class="fa-solid fa-circle-check text-success"></i>
+                  <p class="ms-2">
+                    Buy food and agricultural products with competitive
+                    prices and high service quality
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 text-black pb-0 mt-md-0 mt-sm-5 mt-lg-0 join">
+          <div class="row">
+            <div class="col-lg-12 p-lg-5 col-md-12 p-md-3 mb-md-0 mb-sm-5 mb-lg-0">
+              <h2 class="position-relative fw-bold before-blue">
+                Join FruVe For Free
+              </h2>
+            </div>
+            <div class="col-lg-12 p-lg-5 col-md-12 p-md-3">
+              <form (`)="onSubmit(contactForm)" #contactForm="ngForm" class="row g-lg-2 g-md-4 mt-lg-0 mt-md-2">
+                <div class="col-lg-10 pb-2 position-relative">
+                  <label for="inputFirstName"></label>
+                  <input type="text" class="form-control" ngModel name="firstname" id="validationTooltip01"
+                  placeholder="First name" #firstnameTxt="ngModel" required>
+                  <p class="errMsg m-0" *ngIf="!firstnameTxt.valid && firstnameTxt.touched">First name is required</p>
+                </div>
+                <div class="col-lg-10 pb-2 mb-3 position-relative">
+                  <label for="inputLastName"></label>
+                  <input type="text" class="form-control" id="inputLastName" ngModel name="lastname" 
+                  #lastnameTxt="ngModel" required placeholder="Last name">
+                  <p class="errMsg m-0" *ngIf="!lastnameTxt.valid && lastnameTxt.touched">Last name is required</p>
+                </div>
+                <div class="col-lg-10 pb-2 position-relative">
+                  <div >
+                    <span class="input-group-text">
+                      User Name
+                    </span>
+                    <!-- <input type="text" class="form-control" ngModel name="username" 
+                    #userNameTxt="ngModel" required > -->
+                    <input type="text" class="form-control"
+                    aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required ngModel name="username" 
+                    #userNameTxt="ngModel"> 
+                    <p class="errMsg m-0 " *ngIf="!userNameTxt.valid && userNameTxt.touched">UserName is required</p>
+                  </div>
+                </div>
+                <div class="col-lg-10 pb-2 position-relative">
+                  <label for="inputEmail"></label>
+                  <input type="email" class="form-control" id="inputEmail" ngModel name="email"
+                  #emailTxt="ngModel" placeholder="Email"
+                  required email>
+                  <p class="errMsg m-0" *ngIf="!emailTxt.valid && emailTxt.touched">Email is required
+                      at this format asd@gmail.com </p>                
+                    </div>
+                <div class="col-lg-10 pb-2 position-relative">
+                  <label for="inputPassword"></label>
+                  <input type="password" class="form-control" id="inputPassword" ngModel name="password"
+                  required placeholder="password" #PassTxt="ngModel">
+                  <h1 class="errMsg m-0" *ngIf="!PassTxt.valid && PassTxt.touched">Password is required</h1>
+                </div>
+                <div class="col-lg-10 pb-2 position-relative">
+                  <label for="inputPassword"></label>
+                  <input type="password" class="form-control" id="inputRePassword" ngModel name="repassword"
+                  required placeholder="re-password" #RePassTxt="ngModel">
+                  <h1 class="errMsg m-0"  *ngIf="RePassTxt.value != PassTxt.value">Passwords Doesn't match</h1>
+                  <h1 class="errMsg m-0" *ngIf="!RePassTxt.valid && RePassTxt.touched">repassword is required</h1>
+                </div>
+                <div class="col-lg-2 position-relative">
+                  <input type="text" class="form-control" id="validationTooltip02" value="1" placeholder="ID" readonly
+                    hidden />
+                </div>
+                <div>
+                  <button type="submit" class="btn btn-primary" [disabled]="!contactForm.valid">Sign Up</button>
+                </div>
+              </form>
+            </div>
+            <div class="border-span col-lg-12  col-md-12 col-sm-12  position-relative text-center">
+              <span>OR</span>
+            </div>
+            <div
+              class="col-lg-12 col-md-12 col-sm-12 pb-lg-2 pb-md-2 pb-sm-2 pt-lg-2 pt-md-2 pt-sm-2 d-flex justify-content-center  ">
+              <p>Already have an account? </p>
+              <a [routerLink]="['/SignIn']" class="text-decoration-none"> &nbsp;&nbsp;Sign In </a>              
+
+            </div>
+            <div class="col-lg-12 col-md-12  col-sm-12  position-relative text-center pb-lg-4 pb-md-3 pb-sm-3">
+              <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank" class="me-4 text-decoration-none fs-3">
+                <i class="fa-brands fa-facebook icon rounded-circle"></i>
+              </a>
+              <a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp"
+                target="_blank" class="me-4 text-decoration-none fs-3">
+                <i class="fa-brands fa-google icon rounded-circle"></i>
+              </a>
+              <a href="https://www.linkedin.com/ " target="_blank" class="me-0 text-decoration-none fs-3">
+                <i class="fa-brands fa-linkedin icon rounded-circle"></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</section>

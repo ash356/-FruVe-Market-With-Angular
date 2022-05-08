@@ -1,0 +1,534 @@
+<section class="home text-white" id="home">
+    <div class="layer bg-opacity-75 w-100 h-100 bg-black">
+        <nav
+            class="navbar navbar-expand-lg navbar-light nav-fixed bg-black p-3 position-fixed top-0 end-0 start-0 bg-opacity-75">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white d-flex fs-2 p-0 fw-bolder" href="#home">
+                <!-- <a [routerLink]="['/SignIn']" class="navbar-brand text-white d-flex fs-2 p-0 fw-bolder"></a> -->
+                    <span class="text-danger">Fru</span>
+                    <span class="text-success">Ve</span>
+                </a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fw-bold text-uppercase" aria-current="page"
+                                href="#home">
+                                home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold text-uppercase" href="#services">
+                                services
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="text-white nav-link dropdown-toggle fw-bold text-uppercase" href="#products"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                products
+                            </a>
+
+                            <ul class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item text-danger" href="#fruits-product">fruits</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item text-success" href="#vegetables-product">
+                                        vegetables
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link text-white fw-bold text-uppercase"
+                                href="javascript:setTimeout(()=>{window.location = 'index.html' },500);">sign
+                                out</a>
+                        </li>
+                        <li>
+                            <form class="d-flex">
+                                <input class="form-control me-2 fw-bold w-50 mt-lg-0 mt-md-2 mt-sm-2" type="search"
+                                    placeholder="Search" aria-label="Search" />
+                                <button class="btn btn-outline-success mt-lg-0 mt-md-2 mt-sm-2" type="submit">
+                                    Search
+                                </button>
+                            </form>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="d-flex justify-content-center align-items-center vh-100 header text-center">
+            <div class="container">
+                <h1 class="d-flex justify-content-center text-capitalize">
+                    <pre> <span class="text-danger">Fru</span><span class="text-success">Ve</span> Market </pre>
+                </h1>
+                <p class="text-capitalize">
+                    We help businesses safely and reliably source food and
+                    agricultural products from global markets while empowering buyers
+                    with extensive market intelligence for better decision-making.
+                </p>
+                <a href="javascript:setTimeout(()=>{window.location = '#home' },500);">
+                    <span
+                        class="bg-success d-flex justify-content-center fs-4 align-items-center rounded-circle  text-danger up-icon text-center"><i
+                            class="fa-solid fa-angle-up"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- services page.............................  -->
+
+<section class="section-three bg-light text-capitalize pt-5 " id="services">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h2 class="services-h2 text-uppercase mb-3">services</h2>
+                <p class="fs-0 text-muted services-p position-relative translate-middle-y text-uppercase">
+                    our services
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="information text-uppercase mt-3">
+                <div class="layer bg-opacity-75 w-100 h-100 bg-black p-5">
+                    <div class="row p-5">
+                        <div class="col-sm-12 col-lg-3 col-md-3 text-center position-relative mb-5">
+                            <span class="mt-4 mb-2 fs-3">
+                                <i class="fa-solid fa-apple-whole text-success information-icon rounded-circle p-4">
+                                </i>
+                            </span>
+                            <h3 class="fs-3 text-center">450</h3>
+                            <p class="fs-6 text-center ">fruits</p>
+                            <button class="btn btn-success text-capitalize">see details
+                                <div
+                                    class="row position-absolute details bg-dark rounded-3 p-3 text-center text-white text-capitalize">
+                                    <div class="col-12 p-3">
+                                        <span>apple</span>
+                                    </div>
+                                    <div class="col-12 p-3">
+                                        <span>banana</span>
+                                    </div>
+                                    <div class="col-12 p-3">
+                                        <span>orange</span>
+                                    </div>
+                                    <div class="col-12 p-3">
+                                        <span>Pineapple</span>
+                                    </div>
+                                    <div class="col-12 p-3">
+                                        <span>Strawberry</span>
+                                    </div>
+                                    <div class="col-12 p-3">
+                                        <span>Mango</span>
+                                    </div>
+                                </div>
+                            </button>
+
+                        </div>
+                        <div class="col-sm-12 col-lg-3 col-md-3 text-center position-relative mb-5">
+                            <span class="mt-4 mb-2 fs-3">
+                                <i class="fa-solid fa-carrot text-success information-icon rounded-circle p-4"></i>
+                            </span>
+                            <h3 class="fs-3 text-center">5</h3>
+                            <p class="fs-6 text-center">vegetables</p>
+                            <button class="btn btn-success text-capitalize">see details
+                                <div
+                                    class="row position-absolute details bg-dark rounded-3 p-3 text-center text-white text-capitalize">
+                                    <div class="col-12 p-3">
+                                        <span>Tomato</span>
+                                    </div>
+                                    <div class="col-12 p-3">
+                                        <span>Potato</span>
+                                    </div>
+                                    <div class="col-12 p-3">
+                                        <span>Carrot</span>
+                                    </div>
+                                    <div class="col-12 p-3">
+                                        <span>cucumber</span>
+                                    </div>
+
+                                </div>
+                            </button>
+
+                        </div>
+                        <div class="col-sm-12 col-lg-3 col-md-3 text-center position-relative mb-5">
+                            <span class="mt-4 mb-2 fs-3">
+                                <i
+                                    class="fa-solid fa-user-group text-success information-icon rounded-circle p-4"></i>
+                            </span>
+                            <h3 class="fs-3 text-center">550</h3>
+                            <p class="fs-6 text-center">customers</p>
+                            <button class="btn btn-success text-capitalize">see details
+                                <div
+                                    class="row position-absolute details bg-dark rounded-3 p-3 text-center text-white text-capitalize">
+                                    <div class="col-12 p-3">
+                                        <span>Elhawary</span>
+                                    </div>
+                                    <div class="col-12 p-3">
+                                        <span>ahmed ibrahim</span>
+                                    </div>
+                                </div>
+                            </button>
+
+                        </div>
+                        <div class="col-sm-12 col-lg-3 col-md-3 text-center position-relative mb-5">
+                            <span class="mt-4 mb-2 fs-3">
+                                <i class="fa-solid fa-medal text-success information-icon rounded-circle p-4"></i>
+                            </span>
+                            <h3 class="fs-3 text-center">48</h3>
+                            <p class="fs-6 text-center">deals</p>
+                            <button class="btn btn-success text-capitalize">see details
+                                <div
+                                    class="row position-absolute details bg-dark rounded-3 p-3 text-center text-white text-capitalize">
+                                    <div class="col-12 p-3">
+                                        <span>5 buying fruits</span>
+                                    </div>
+                                    <div class="col-12 p-3">
+                                        <span>5 buying vegetables</span>
+                                    </div>
+                                    
+                                </div>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- fruit-product page........................  -->
+
+
+<section class="section-four bg-light text-capitalize pb-5" id="fruits-product">
+    <div class="container">
+        <div class="row text-center mb-4">
+            <div class="col-sm-12">
+                <h2 class="services-h2 text-uppercase mt-5">products</h2>
+                <p class="fs-0 text-muted services-p position-relative translate-middle-y">
+                    fruits
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Apple.jpg" class="card-img-top rounded-0 w-100" alt="..." />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh apple</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>15</span></span>
+
+                                / 18 april. 2022
+                                <time datetime="2022-04-18 20:00"></time>
+                            </p>
+                        </div>
+                        <div>
+                            <button class="rounded-circle border-4 border-primary text-primary p-2">
+                                <i class="fa-solid fa-plus fs-5"></i>
+                            </button>
+                            <button class="rounded-circle border-4 border-danger text-danger p-2 ms-4">
+                                <i class="fa-solid fa-minus fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Banana.jpg" class="card-img-top rounded-0 w-100" alt="..." />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh banana</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>10</span></span>
+
+                                / 18 april. 2022
+                                <time datetime="2022-04-18 20:00"></time>
+
+                            </p>
+                        </div>
+                        <div>
+                            <button class="rounded-circle border-4 border-primary text-primary p-2">
+                                <i class="fa-solid fa-plus fs-5"></i>
+                            </button>
+                            <button class="rounded-circle border-4 border-danger text-danger p-2 ms-4">
+                                <i class="fa-solid fa-minus fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Orange.jpg" class="card-img-top rounded-0 w-100" alt="..." />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh orange</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>5</span></span>
+
+                                / 18 april. 2022
+                                <time datetime="2022-04-18 20:00"></time>
+
+                            </p>
+                        </div>
+                        <div>
+                            <button class="rounded-circle border-4 border-primary text-primary p-2">
+                                <i class="fa-solid fa-plus fs-5"></i>
+                            </button>
+                            <button class="rounded-circle border-4 border-danger text-danger p-2 ms-4">
+                                <i class="fa-solid fa-minus fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Pineapple.jpg" class="card-img-top rounded-0 w-100" alt="..." />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh Pineapple</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>20</span></span>
+
+                                / 18 april. 2022
+                                <time datetime="2022-04-18 20:00"></time>
+
+                            </p>
+                        </div>
+                        <div>
+                            <button class="rounded-circle border-4 border-primary text-primary p-2">
+                                <i class="fa-solid fa-plus fs-5"></i>
+                            </button>
+                            <button class="rounded-circle border-4 border-danger text-danger p-2 ms-4">
+                                <i class="fa-solid fa-minus fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Strawberry.jpg" class="card-img-top rounded-0 w-100" alt="..." />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh Strawberry</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>10</span></span>
+
+                                / 18 april. 2022
+                                <time datetime="2022-04-18 20:00"></time>
+
+                            </p>
+                        </div>
+                        <div>
+                            <button class="rounded-circle border-4 border-primary text-primary p-2">
+                                <i class="fa-solid fa-plus fs-5"></i>
+                            </button>
+                            <button class="rounded-circle border-4 border-danger text-danger p-2 ms-4">
+                                <i class="fa-solid fa-minus fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Mango.jpg" class="card-img-top rounded-0 w-100" alt="..." />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh Mango</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>20</span></span>
+
+                                / 18 april. 2022
+                                <time datetime="2022-04-18 20:00"></time>
+
+                            </p>
+                        </div>
+                        <div>
+                            <button class="rounded-circle border-4 border-primary text-primary p-2">
+                                <i class="fa-solid fa-plus fs-5"></i>
+                            </button>
+                            <button class="rounded-circle border-4 border-danger text-danger p-2 ms-4">
+                                <i class="fa-solid fa-minus fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- vegetables-product page........................  -->
+
+
+<section class="section-four bg-light text-capitalize pb-5" id="vegetables-product">
+    <div class="container">
+        <div class="row text-center mb-4">
+            <div class="col-sm-12">
+                <h2 class="services-h2 text-uppercase mt-5">products</h2>
+                <p class="fs-0 text-muted services-p position-relative translate-middle-y">
+                    vegetables
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Onion.jpg" class="card-img-top rounded-0 w-100" alt="Onion" />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh Onion</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>20</span></span>
+                                / 18 april. 2022
+                            </p>
+                        </div>
+                        <div>
+                            <button class="rounded-circle border-4 border-primary text-primary p-2">
+                                <i class="fa-solid fa-plus fs-5"></i>
+                            </button>
+                            <button class="rounded-circle border-4 border-danger text-danger p-2 ms-4">
+                                <i class="fa-solid fa-minus fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Tomato.jpg" class="card-img-top rounded-0 w-100" alt="old Tomato" />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">old Tomato</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>15</span></span>
+
+                                / 18 april. 2022
+                            </p>
+                        </div>
+                        <div>
+                            <button class="rounded-circle border-4 border-primary text-primary p-2">
+                                <i class="fa-solid fa-plus fs-5"></i>
+                            </button>
+                            <button class="rounded-circle border-4 border-danger text-danger p-2 ms-4">
+                                <i class="fa-solid fa-minus fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Potato.jpg" class="card-img-top rounded-0 w-100" alt="Potato" />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh Potato</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>20</span></span>
+
+                                / 18 april. 2022
+                            </p>
+                        </div>
+                        <div>
+                            <button class="rounded-circle border-4 border-primary text-primary p-2">
+                                <i class="fa-solid fa-plus fs-5"></i>
+                            </button>
+                            <button class="rounded-circle border-4 border-danger text-danger p-2 ms-4">
+                                <i class="fa-solid fa-minus fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/Carrot.jpg" class="card-img-top rounded-0 w-100" alt="Carrot" />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh Carrot</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>10</span></span>
+
+                                / 18 april. 2022
+                            </p>
+                        </div>
+                        <div>
+                            <button class="rounded-circle border-4 border-primary text-primary p-2">
+                                <i class="fa-solid fa-plus fs-5"></i>
+                            </button>
+                            <button class="rounded-circle border-4 border-danger text-danger p-2 ms-4">
+                                <i class="fa-solid fa-minus fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body mb-5">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/cucumber.jpg" class="card-img-top rounded-0 w-100" alt="cucumber" />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh cucumber </h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>15</span></span>
+                                / 18 april. 2022
+                            </p>
+                        </div>
+                        <div>
+                            <button class="rounded-circle border-4 border-primary text-primary p-2">
+                                <i class="fa-solid fa-plus fs-5"></i>
+                            </button>
+                            <button class="rounded-circle border-4 border-danger text-danger p-2 ms-4">
+                                <i class="fa-solid fa-minus fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 col-md-6 portfolio-body">
+                <div class="card rounded-0 border-0">
+                    <img src="../../../assets/images/fresh-tomato.jpg" class="card-img-top rounded-0 w-100" alt="fresh tomato" />
+                    <div class="card-body bg-white d-flex justify-content-between align-items-end">
+                        <div>
+                            <h5 class="card-title">fresh tomato</h5>
+                            <p class="card-text">
+                                <span class="text-primary fw-bold">$<span>20</span></span>
+                                / 18 april. 2022
+                            </p>
+                        </div>
+                        <div>
+                            <button class="rounded-circle border-4 border-primary text-primary p-2">
+                                <i class="fa-solid fa-plus fs-5"></i>
+                            </button>
+                            <button class="rounded-circle border-4 border-danger text-danger p-2 ms-4">
+                                <i class="fa-solid fa-minus fs-5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
